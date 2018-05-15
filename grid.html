@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Grid Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="/bootstrap/3.3.7/css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  <script src="/bootstrap/4.1.1/js/bootstrap.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div>Set to different column widths, breakpoints are at default</div>
+
+    <div class="row">
+      <div class="col-lg-2 blue">COL LG 2</div>
+      <div class="col-lg-8 blue">COL LG 8</div>
+      <div class="col-lg-2 blue">COL LG 2</div>
+    </div>
+
+    <div>Set to same column widths, breakpoints are at default</div>
+
+    <div class="row">
+      <div class="col-lg-4 blue">COL LG 4</div>
+      <div class="col-lg-4 blue">COL LG 4</div>
+      <div class="col-lg-4 blue">COL LG 4</div>
+    </div>
+
+    <div>Set to 1 column width (default) on med breakpoint</div>
+
+    <div class="row">
+      <div class="col-lg-1 blue">COL LG 1</div>
+      <div class="col-lg-1 blue">COL LG 1</div>
+      <div class="col-lg-1 blue">COL LG 1</div>
+      <div class="col-lg-1 blue">COL LG 1</div>
+      <div class="col-lg-1 blue">COL LG 1</div>
+      <div class="col-lg-1 blue">COL LG 1</div>
+      <div class="col-lg-1 blue">COL LG 1</div>
+      <div class="col-lg-1 blue">COL LG 1</div>
+      <div class="col-lg-1 blue">COL LG 1</div>
+      <div class="col-lg-1 blue">COL LG 1</div>
+      <div class="col-lg-1 blue">COL LG 1</div>
+      <div class="col-lg-1 blue">COL LG 1</div>
+
+    </div>
+
+    <div>Set to 2 column width on med breakpoint</div>
+
+    <div class="row">
+      <div class="col-lg-1 col-md-2 blue">COL 1</div>
+      <div class="col-lg-1 col-md-2 blue">COL 1</div>
+      <div class="col-lg-1 col-md-2 blue">COL 1</div>
+      <div class="col-lg-1 col-md-2 blue">COL 1</div>
+      <div class="col-lg-1 col-md-2 blue">COL 1</div>
+      <div class="col-lg-1 col-md-2 blue">COL 1</div>
+      <div class="col-lg-1 col-md-2 blue">COL 1</div>
+      <div class="col-lg-1 col-md-2 blue">COL 1</div>
+      <div class="col-lg-1 col-md-2 blue">COL 1</div>
+      <div class="col-lg-1 col-md-2 blue">COL 1</div>
+      <div class="col-lg-1 col-md-2 blue">COL 1</div>
+      <div class="col-lg-1 col-md-2 blue">COL 1</div>
+
+    </div>
+
+    <div>Set to 4 columns on large, 4 columns on medium, 2 columns on small, 1 column on extra small</div>
+
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 blue">COL</div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 blue">COL</div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 blue">COL</div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 blue">COL</div>
+    </div>
+
+    <div>Same as above, but the col-lg-3 is removed because the browser will use the col-md-3 as the large size since we don't
+      include it</div>
+
+    <div class="row">
+      <div class="col-md-3 col-sm-6 col-xs-12 blue">COL</div>
+      <div class="col-md-3 col-sm-6 col-xs-12 blue">COL</div>
+      <div class="col-md-3 col-sm-6 col-xs-12 blue">COL</div>
+      <div class="col-md-3 col-sm-6 col-xs-12 blue">COL</div>
+    </div>
+
+    <div>Nested column example</div>
+
+    <div class="row">
+      <div class="col-md-3 col-sm-6 col-xs-12 blue">
+        <div class="row">
+          <div class="col-lg-6 orange">First Half</div>
+          <div class="col-lg-6 orange">Second Half</div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12 blue">COL</div>
+      <div class="col-md-3 col-sm-6 col-xs-12 blue">COL</div>
+      <div class="col-md-3 col-sm-6 col-xs-12 blue">
+        <div class="row">
+          <div class="col-lg-2 orange">piece</div>
+          <div class="col-lg-2 orange">piece</div>
+          <div class="col-lg-2 orange">piece</div>
+          <div class="col-lg-2 orange">piece</div>
+          <div class="col-lg-2 orange">piece</div>
+          <div class="col-lg-2 orange">piece</div>
+        </div>
+      </div>
+    </div>
+
+
+</body>
+
+</html>

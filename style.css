@@ -1,0 +1,11 @@
+.blue {
+  background: hsl(240, 69%, 50%);
+  border: 1px solid hsl(240, 70%, 13%);
+  color: white;
+}
+
+.orange {
+  background: orange;
+  border: 1px dashed red;
+  height: 50px;
+}
